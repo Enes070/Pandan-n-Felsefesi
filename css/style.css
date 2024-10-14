@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* <------------MENU-------------> */
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: auto;
+    list-style: none;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.menu li{
+    width: 150px;
+    text-align: center;
+}
+
+a{
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2b8a3e;
+    transition: all 1s;
+}
+
+/* .search_icon {
+    width: 35px !important;
+    height: 35px !important;
+    position: relative;
+    top: 0;
+    left: 350px;
+    cursor: pointer;
+}
+
+.search_icon:hover{
+    color: #2b8a3e;
+    transition: all 1s; 
+    cursor: pointer;
+} */
+
+/* <------------Metin-------------> */
+.roboto-condensed-uniquifier {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* <------------HOME MAİN-------------> */
+
+.barista{
+    height:auto;
+    width: 50%;
+    float: left;
+}
+
+.coffe_bean{
+    height: auto;
+    width: 50%;
+    float: right;
+}
+
+/* <------------FOOTER-------------> */
+
+.contact_information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
+    width: auto;
+    clear: both;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.information{
+    text-align: center;
+}
+
+/* <-----------ABOUT Page--------------> */
+
+.main{
+    height: 1400px;
+}
+
+.About{
+    height: 620px;
+    display: block;
+    margin-left: 70px;
+    padding-right: 170px;
+    padding-left: 170px;
+    margin-top: 100px;
+}
+
+.parf{
+    margin-bottom: 50px;
+}
+
+/* <-----------COFFEE & COFFEE_BEAN Page--------------> */
+
+.contents{
+    float:left;
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    border-top: 1.5px solid whitesmoke;
+    border-left: 1.5px solid whitesmoke;
+    border-radius: 10px;
+    margin: 25px;
+    margin-left: 150px;
+    margin-right: 60px;   
+    margin-top: 150px; 
+    box-shadow: 20px 30px 5px grey;
+}
+
+.coffe_photo{
+    width: 150px;
+    height: 200px;
+    padding: 40px 30px 30px 50px;
+}
+
+.coffe_title{
+    text-align: center;
+}
+
+.coffee_price{
+    float: left;
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+
+.shop-car{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 80px;
+    right: 50px;
+    float: right;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.shopping-car{
+    width: 35px !important;
+    height: 35px !important;
+    position: relative;
+    top: 0;
+    left: 250px;
+    cursor: pointer;
+}
+
+.shopping-car:hover{
+    color: #2b8a3e;
+    transition: all 1s; 
+}
+
+/* span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    /* border-radius: 50%; 
+    position: relative;
+    top: -20px;
+    right: -240px;
+} */
+
+/* .sayi{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+.shopping-cart {
+    position: relative;
+    width: 50px; /* Sepet ikonu boyutu */
+    height: 50px;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    background-color: black;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
