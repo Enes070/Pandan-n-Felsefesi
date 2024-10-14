@@ -55,34 +55,6 @@ a:hover{
 
 /* <------------HOME MAİN-------------> */
 
-.barista{
-    height:auto;
-    width: 50%;
-    float: left;
-}
-
-.coffe_bean{
-    height: auto;
-    width: 50%;
-    float: right;
-}
-
-/* <------------FOOTER-------------> */
-
-.contact_information{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 215px;
-    width: auto;
-    clear: both;
-    box-shadow: 5px 5px 20px grey;
-}
-
-.information{
-    text-align: center;
-}
-
 /* <-----------ABOUT Page--------------> */
 
 .main{
@@ -98,11 +70,7 @@ a:hover{
     margin-top: 100px;
 }
 
-.parf{
-    margin-bottom: 50px;
-}
-
-/* <-----------COFFEE & COFFEE_BEAN Page--------------> */
+/* <-----------   BOOK  --------------> */
 
 .contents{
     float:left;
@@ -161,24 +129,6 @@ a:hover{
     color: #2b8a3e;
     transition: all 1s; 
 }
-
-/* span{
-    display: flex;
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    /* border-radius: 50%; 
-    position: relative;
-    top: -20px;
-    right: -240px;
-} */
-
-/* .sayi{
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-} */
 
 .shopping-cart {
     position: relative;
