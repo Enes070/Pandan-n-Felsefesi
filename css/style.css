@@ -72,7 +72,7 @@ a:hover{
 
 /* <-----------   BOOK  --------------> */
 
-.contents{
+/* .books{
     float:left;
     width: 250px;
     height: 450px;
@@ -87,24 +87,24 @@ a:hover{
     box-shadow: 20px 30px 5px grey;
 }
 
-.coffe_photo{
+.book_photo{
     width: 150px;
     height: 200px;
     padding: 40px 30px 30px 50px;
 }
 
-.coffe_title{
+.book_title{
     text-align: center;
-}
+} */
 
-.coffee_price{
+/* .coffee_price{
     float: left;
     position: relative;
     top: 90px;
     left: 50px;
-}
+} */
 
-.shop-car{
+/* .shop-car{
     width: 35px;
     height: 35px;
     position: relative;
@@ -114,9 +114,9 @@ a:hover{
     border: none;
     background-color: white;
     cursor: pointer;
-}
+} */
 
-.shopping-car{
+/* .shopping-car{
     width: 35px !important;
     height: 35px !important;
     position: relative;
@@ -132,11 +132,11 @@ a:hover{
 
 .shopping-cart {
     position: relative;
-    width: 50px; /* Sepet ikonu boyutu */
+    width: 50px; Sepet ikonu boyutu 
     height: 50px;
-}
+} */
 
-.cart-badge {
+/* .cart-badge {
     position: absolute;
     top: 10px;
     right: 150px;
@@ -147,4 +147,10 @@ a:hover{
     font-size: 12px;
     font-weight: bold;
     line-height: 1;
+} */
+
+.book{
+    width: 150px;
+    height: 150px;
+    color:red;
 }
