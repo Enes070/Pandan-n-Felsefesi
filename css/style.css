@@ -4,7 +4,34 @@
 }
 
 
-/*************MENU*********************/
+/*************MENU******************/
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    list-style: none;
+}
+
+.li{
+    width: 150px;
+    text-align: center;
+}
+
+.a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+/*************MAİN******************/
+.main{
+    display: block;
+    background-color: green;
+    height: 1920px;
+}
 
 .books{
     margin: 10px;
